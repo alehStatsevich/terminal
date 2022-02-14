@@ -1,0 +1,141 @@
+
+.formGroup {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.authForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1004px;
+    max-height: 723px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 10px 5px 5px #2f2b2b;
+
+}
+
+.h3 {
+    margin: 121px auto 51px;
+    width: 134px;
+    height: 22px;
+    text-align: center;
+    font: normal normal bold 20px/23px Arial;
+    letter-spacing: 0px;
+    color: #2699FB;
+    opacity: 1;
+}
+
+.h6 {
+    width: 43px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #2699FB;
+    opacity: 1;
+    position: relative;
+    left: 65px;
+    bottom: 5px;
+}
+
+.inputs {
+    width: 360px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #BCE0FD;
+    border-radius: 5px;
+    margin: 0 50px;
+    text-align: left;
+    font: normal normal normal 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #2699FB;
+    padding-left: 20px;
+    position: relative;
+}
+
+.sumBlock {
+    margin-top: 45px;
+}
+
+.btn {
+    width: 360px;
+    height: 50px;
+    background: #0075D8 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    margin: 45px 0px 28px 0px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-transform: none;
+    background-color: #2196f3;
+    color: #ffffff;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.1s;
+}
+
+span {
+    width: 94px;
+    height: 16px;
+    text-align: center;
+    font: normal normal bold 14px/12px Arial;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.link {
+    width: 95px;
+    height: 16px;
+    text-align: left;
+    font: normal normal bold 14px/16px Arial;
+    letter-spacing: 0px;
+    color: #2699FB;
+    text-decoration: none;
+}
+
+.errorPhone {
+    position: absolute;
+    right: 177px;
+    top: 263px;
+    color: red;
+}
+
+.errorSum {
+    position: absolute;
+    right: 151px;
+    top: 378px;
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+@media screen and (max-width: 569px) {
+    .authForm {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .inputs {
+        margin: 31px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .inputs {
+        margin: 0px;
+    }
+}
